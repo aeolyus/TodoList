@@ -5,9 +5,13 @@ function newItem(){
 	li.appendChild(document.createTextNode(item));
 	ul.appendChild(li);
 	document.getElementById('input').value="";
+	li.onclick=done;
 }
 document.body.onkeydown=function(e){
 	if(e.keyCode==13&&document.getElementById('input').value!=""){
 		newItem();
 	}
+}
+function done(e){
+	e.target.parentElement.removeChild(e.target);
 }
