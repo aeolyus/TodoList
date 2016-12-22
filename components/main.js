@@ -17,6 +17,5 @@ document.body.onkeydown=function(e){
 	}
 }
 function done(e){
-	console.log("Hello");
 	e.target.parentElement.removeChild(e.target);
 }
