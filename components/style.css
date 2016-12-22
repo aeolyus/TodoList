@@ -1,0 +1,27 @@
+html{
+	font-family: "Lucida Grande";
+	text-align: center;
+}
+body{
+	margin: 0 auto;
+	background-color: #ECEFF1;
+	max-width: 70em;
+	text-align: center;
+}
+input{
+	background-color: #ECEFF1;
+	border: 0;
+	outline:0;
+	font-size:2.5em;
+	padding: 1em;
+}
+ul{
+	font-size: 1.5em;
+}
+li{
+	text-align: left;
+	padding: .2em;
+}
+li:hover{
+	text-decoration: line-through;
+}
